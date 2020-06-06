@@ -44,6 +44,7 @@ Enter same passphrase again:"
 Скопируем его содержимое в буфер обмена командой "cat ~/.ssh/id_rsa.pub"
 Либо открыв файл текстовым редактором и скопировав содержимое.
 Идем на гитхаб. Открываем настройки профиля GitHub.
+
 [https://github.com/settings/keys](https://github.com/settings/keys)
 
 
