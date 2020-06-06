@@ -61,6 +61,8 @@ Hi Вы! You've successfully authenticated, but GitHub does not provide shell ac
 
 Открываем нашу обычную cmd.exe консоль.
 
+! У меня получилось только через git-bash, обычная отказалась
+
 10. Открываем cmd.exe
 11. Переходим в папку проекта.
 12. git push origin master
