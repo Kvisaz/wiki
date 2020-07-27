@@ -10,7 +10,7 @@ npm i react-router-dom
 
 ## TypeScript
 
-Нддо добавить типы
+Надо добавить типы
 ```bash
 npm i -D @types/react-router-dom
 ```
@@ -51,29 +51,18 @@ npm i -D @types/react-router-dom
   <div>
     <nav>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/users">Users</Link>
-        </li>
+        <li> <Link to="/">Home</Link> </li>
+        <li> <Link to="/about">About</Link> </li>
+        <li> <Link to="/users">Users</Link> </li>
       </ul>
     </nav>
 
     {/* <Switch> рендерит первый <Route> подходящий текущему URL. */}
     <Switch>
-      <Route path="/about">
-        <About />
-      </Route>
-      <Route path="/users">
-        <Users />
-      </Route>
-      <Route path="/">
-        <Home />
-      </Route>
+      <Route exact path="/"><Home /></Route>
+      <Route path="/about"><About /></Route>
+      <Route path="/users"><Users /></Route>
+      <Route path="/">404 - ничего не найдено</Route>
     </Switch>
   </div>
 </Router>
