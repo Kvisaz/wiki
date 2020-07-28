@@ -1,6 +1,12 @@
 # wiki
 Всякие статейки для разработки
 
+## Flutter
+[Flutter - начало](flutter/flutter.md)
+
+## Dart
+[Ключевые особенности](dart/dart.md)
+
 ## React
 [Роутинг](react/router.md)
 
