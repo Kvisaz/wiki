@@ -2,7 +2,7 @@
 Всякие статейки для разработки
 
 ## Flutter
-[Flutter - начало](flutter/flutter.md)
+[Flutter - начало](flutter/README.md)
 
 ## Dart
 [Ключевые особенности](dart/dart.md)
