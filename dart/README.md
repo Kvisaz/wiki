@@ -10,6 +10,7 @@
 - [Коллекции](collections.md)
 
 Организация кода
+- [Переменные](var.md)
 - [Функции](func.md)
 - [Классы](classes.md)
 - [Пакеты в Dart](packages.md)
