@@ -10,6 +10,8 @@ void main() {
 }
 ```
 
+- [Пакеты в Dart](packages.md)
+
 ## Flutter
 Для работы c Dart - можно использовать только Flutter, отдельно dart-cli ставить не нужно.
 
