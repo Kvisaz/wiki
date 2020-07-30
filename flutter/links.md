@@ -1,6 +1,7 @@
 # Ссылки по Flutter
 
-[<------------ Flutter ](README.md)
+[<------------ Индекс ](README.md)
+
 
 [Главный сайт](https://flutter.dev/)
 
@@ -11,4 +12,4 @@
 [Flutter's API documentation](https://api.flutter.dev/index.html)
 
 
-[<------------ Flutter ](README.md)
+[<------------ Индекс ](README.md)

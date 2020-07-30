@@ -1,20 +1,15 @@
 # wiki
 Всякие статейки для разработки
 
-## Flutter
-[Flutter - начало](flutter/README.md)
+Мобильная разработка
+- [Flutter](flutter/README.md)
+- [Dart](dart/README.md)
 
-## Dart
-[Ключевые особенности](dart/dart.md)
+Фронтенд
+- [React](react/README.md)
 
-## React
-[Роутинг](react/router.md)
+HTML5 игры
+- [Phaser 3](phaser/README.md)
 
-
-## Phaser 3
-[Текстуры и Фреймы](phaser/images/Texture.md)
-[Фреймы](phaser/images/Frame.md)
-
-
-## Git
+Git
 [Git SSH под Windows](git/ssh.md)

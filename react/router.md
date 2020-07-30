@@ -1,5 +1,7 @@
 # Роутинг в React - react-router
 
+[<------------ Индекс ](README.md)
+
 [Сайт react-router](https://reactrouter.com/web/guides/quick-start)
 
 Добавить к проекту (уже созданному через create-react-app)
@@ -67,3 +69,5 @@ npm i -D @types/react-router-dom
   </div>
 </Router>
 ```
+
+[<------------ Индекс ](README.md)
