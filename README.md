@@ -12,4 +12,5 @@ HTML5 игры
 - [Phaser 3](phaser/README.md)
 
 Git
-[Git SSH под Windows](git/ssh.md)
+- [Git SSH под Windows](git/ssh.md)
+- [Команды](git/commands.md)
