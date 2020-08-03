@@ -9,6 +9,8 @@
 - [Виджеты](widgets.md)
 - [Отладка](debug.md)
 - [Роутинг](routes.md)
+- [Потоки](threads.md)
+- [Async-Await](async.md)
 
 Как работать
 - [Командная строка](cli.md)
