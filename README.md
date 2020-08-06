@@ -14,3 +14,4 @@ HTML5 игры
 Git
 - [Git SSH под Windows](git/ssh.md)
 - [Команды](git/commands.md)
+- [Имя пользователя](git/username.md)
