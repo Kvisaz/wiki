@@ -6,7 +6,7 @@
 
 - [Простое приложение - Код](app-basic.md)
 - [Простое приложение - структура](app-basic-structure.md)
-- [Виджеты](widgets.md)
+- [Виджеты](widgets/README.md)
 - [Отладка](debug.md)
 - [Роутинг](routes.md)
 - [Потоки](threads.md)
