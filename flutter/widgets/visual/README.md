@@ -1,6 +1,6 @@
 # Визуальные виджеты Flutter
 
-- Text
+- [Text](text/README.MD)
 - [ProgressIndicator (индикатор прогресса)](progress_indicator.md) 
 
 
