@@ -7,6 +7,7 @@
 - [Простое приложение - Код](app-basic.md)
 - [Простое приложение - структура](app-basic-structure.md)
 - [Виджеты](widgets/README.md)
+- [Hot reload (обновление при изменениях)](hot-reload.md)
 - [Отладка](debug.md)
 - [Роутинг](routes.md)
 - [Потоки](threads.md)
