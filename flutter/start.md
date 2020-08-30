@@ -19,6 +19,8 @@ flutter doctor
 
 Очень удобно настроить редактор для Flutter, это повысит кайф от работы с ним. Там появятся подсветки кода, подсказки и клавишные ускорители.
 
+По сути, в каждом редакторе надо установить плагин Flutter. И это все. 
+
 - [Настройка Android Studio](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
 - [Настройка Visual Studio Code](https://flutter.dev/docs/get-started/editor?tab=vscode)
 
