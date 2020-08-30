@@ -70,10 +70,37 @@ flutter devices
 ```
 И если в списке есть устройство - запустить 
 ```
-flutter start 
+flutter run 
 ```
 
 И приложение запустится на подключенном устройстве.
+
+## Свой виджет
+В main в функции main через runApp запускается корневой виджет приложения. Он может быть произвольным, но лучше, если в корне будет MaterialApp - это избавит от ряда проблем с текстом, к примеру.
+
+```dart
+void main() {
+  runApp(MyWidget());
+}
+
+class MyWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Container(
+        color: Colors.lime,
+        child: Center(
+          child: Text(
+            'Hello',
+            textAlign: TextAlign.center,
+            style: TextStyle(color: Colors.black, fontSize: 32),
+          ),
+        ),
+      ),
+    );
+  }
+}
+```
 
 
 ## Библиотеки, зависимости, настройки проекта
