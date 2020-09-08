@@ -4,6 +4,7 @@
 Мобильная разработка
 - [Flutter](flutter/README.md)
 - [Dart](dart/README.md)
+- [iOS](ios/README.md)
 
 Фронтенд
 - [React](react/README.md)
