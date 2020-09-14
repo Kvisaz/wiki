@@ -15,5 +15,6 @@ HTML5 игры
 Git
 - [Восстановить удаленнуюю ветку](git/undelete.md)
 - [Git SSH под Windows](git/ssh.md)
-- [Команды](git/commands.md)
+- [Ветки и удаление](git/commands.md)
+- [Смержить с одним коммитом](git/merge.md)
 - [Имя пользователя](git/username.md)
