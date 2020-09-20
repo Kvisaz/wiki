@@ -24,10 +24,12 @@
         // Constrain the camera so that it isn't allowed to move outside the width/height of tilemap
         camera.setBounds(0, 0, tileMap.widthInPixels, tileMap.heightInPixels);
 
+        /// вот это обязательно - чтобы клавиши работали    
         scene.events.on('update', (time, delta)=> {
             controls.update(delta);
         });
 
+        /// это уже не обязательно
         return controls;
     }
 ```
