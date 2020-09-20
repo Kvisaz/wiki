@@ -7,7 +7,7 @@
 Этот хак позволяет скроллить уровень клавишами курсора, нужно вызвать функцию в create после создания карты.
 
 ```typescript
-/**  подключить камеру к карте и управлетяь курсорами **/
+/**  подключить камеру к карте и управлять курсорами **/
     function addCameraControls(scene: Phaser.Scene, tileMap: Phaser.Tilemaps.Tilemap):Phaser.Cameras.Controls.FixedKeyControl {
         const camera = scene.cameras.main;
         // Set up the arrows to control the camera
