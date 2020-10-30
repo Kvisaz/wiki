@@ -2,7 +2,27 @@
 
 В Phaser можно быстро подключать карты уровней, созданные в [Tiled](https://www.mapeditor.org/)
 
+Статьи на английском
+- [Nodular Game Worlds](https://medium.com/@michaelwesthadley/modular-game-worlds-in-phaser-3-tilemaps-1-958fc7e6bbd6)
+- [Phaser 3 and Tiled](https://stackabuse.com/phaser-3-and-tiled-building-a-platformer/)
+
 Все советы ниже используют Phaser 3 + TypeScript.
+
+## Todo - как подготовить карту в Tiled
+
+Карта в Tiled состоит из самой карты и тайлсетов, они настраиваются отдельно.
+
+Обязательные настройки Tiled карты для Phaser
+- Orthogonal
+- Base64 (uncompressed)
+
+Создав карту, надо создать в ней тайлсеты. Обязательные настройки 
+- Embed in map
+
+
+
+
+Обязательно tileset должны быть "включены" в карту tiled. 
 
 ## Подключить камеру и клавиши курсора
 

@@ -18,3 +18,4 @@ Git
 - [Ветки и удаление](git/commands.md)
 - [Смержить с одним коммитом](git/merge.md)
 - [Имя пользователя](git/username.md)
+- [Keeping a fork up to date](git/fork.md)
