@@ -12,6 +12,9 @@
 HTML5 игры
 - [Phaser 3](phaser/README.md)
 
+VS Code
+- [VS Code](vscode/index.md)
+
 Git
 - [Восстановить удаленнуюю ветку](git/undelete.md)
 - [Git SSH под Windows](git/ssh.md)
