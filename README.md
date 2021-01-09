@@ -17,6 +17,10 @@ HTML5 игры
 
 - [Phaser 3](phaser/README.md)
 
+PHP
+
+- [PHP 7 ломает совместимость](php/index.md)
+
 VS Code
 
 - [VS Code](vscode/index.md)
