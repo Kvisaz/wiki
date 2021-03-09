@@ -21,6 +21,10 @@ PHP
 
 - [PHP 7 ломает совместимость](php/index.md)
 
+Python
+
+- [Python snippets](python/readme.md)
+
 VS Code
 
 - [VS Code](vscode/index.md)
