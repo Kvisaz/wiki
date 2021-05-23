@@ -12,6 +12,7 @@
 
 - [React](react/README.md)
 - [Static Site Generators](ssg/readme.md)
+- [Webpack 5](webpack/README.md)
 
 HTML5 игры
 
