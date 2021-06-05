@@ -10,6 +10,7 @@
 
 Фронтенд
 
+- [JavaScript Codewars Kata 8](javascript/kata/kata8.md)
 - [React](react/README.md)
 - [Static Site Generators](ssg/readme.md)
 - [Webpack 5](webpack/README.md)
