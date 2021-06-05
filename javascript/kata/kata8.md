@@ -1,5 +1,41 @@
 # Примеры кат 8 уровня
 
+## Приветствие
+
+```javascript
+const greet = (name) => `Hello, ${name} how are you doing today?`;
+```
+
+```javascript
+function greet(name) {
+  return `\x48\x65\x6c\x6c\x6f\x2c\x20${name}\x20\x68\x6f\x77\x20\x61\x72\x65\x20\x79\x6f\x75\x20\x64\x6f\x69\x6e\x67\x20\x74\x6f\x64\x61\x79\x3f`;
+}
+```
+
+## multiplication table
+
+for number that is always an integer from 1 to 10.
+
+```javascript
+function multiTable(number) {
+  let numbers = [];
+  for (let i = 1; i <= 10; i++) {
+    numbers.push(`${i} * ${number} = ${i * number}`);
+  }
+  return numbers.join("\n");
+}
+```
+
+Чужие решения
+
+```javascript
+function multiTable(n) {
+  return [...Array(10)]
+    .map((_, i) => `${i + 1} * ${n} = ${n * i + n}`)
+    .join("\n");
+}
+```
+
 ## BMI определитель
 
 Write function bmi that calculates body mass index (bmi = weight / height^2).
