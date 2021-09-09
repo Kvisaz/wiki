@@ -2,6 +2,11 @@
 
 Всякие статейки для разработки
 
+UI трюки и алгоритмы
+
+- [Drag-n-drop](./algo/ui/drag-n-drop.md)
+- [Сортируемый список с drag-n-drop](./algo/ui/dnd-sortable-list.md)
+
 Мобильная разработка
 
 - [Flutter](flutter/README.md)
