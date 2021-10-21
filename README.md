@@ -19,6 +19,7 @@ UI трюки и алгоритмы
 Фронтенд
 
 - [Верстка](front/common/verstka.md)
+- [Scroll](front/scroll/README.MD)
 - [JavaScript Codewars Kata 8](javascript/kata/kata8.md)
 - [React](react/README.md)
 - [Static Site Generators](ssg/readme.md)
