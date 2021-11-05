@@ -4,6 +4,10 @@
 
 - [Docker](./docker/README.MD)
 
+Тесты на фронте
+
+- [О тестах](./tests/README.md)
+- [Чек-лист по добавлению тестов в приложение Typescript](./tests/check-list-add-unit-test-ts.md)
 
 UI трюки и алгоритмы
 
