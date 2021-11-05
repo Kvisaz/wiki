@@ -8,8 +8,10 @@
    `npm install jest-environment-jsdom` - среда для тестирование браузера
    `npm install jest-environment-jsdom-global` - среда для тестирование браузера
 
+   `npm i @babel/preset-typescript --save-dev` - обязательно, чтобы Jest понимал наш TypeScript
+
 Или одной командой
-`npm i jest @types/jest @types/jsdom jest-environment-jsdom jest-environment-jsdom-global --save-dev`
+`npm i jest @types/jest @types/jsdom jest-environment-jsdom jest-environment-jsdom-global @babel/preset-typescript --save-dev`
 
 2. В package.json ставим настройку jest для браузера - это просто надо скопировать
 
