@@ -52,7 +52,7 @@ describe("TEST SUITE MARKER NAME ", () => {
 
     // сердце теста - означает,
     // что params === expected
-    expect(params).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 });
 ```
