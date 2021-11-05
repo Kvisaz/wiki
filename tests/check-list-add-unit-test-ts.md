@@ -8,7 +8,7 @@
    `npm install jest-environment-jsdom` - среда для тестирование браузера
    `npm install jest-environment-jsdom-global` - среда для тестирование браузера
 
-   `npm i @babel/preset-typescript --save-dev` - обязательно, чтобы Jest понимал наш TypeScript
+   `npm i @babel/core @babel/preset-env @babel/preset-typescript --save-dev` - обязательно, чтобы Jest понимал наш TypeScript
 
 Или одной командой
 `npm i jest @types/jest @types/jsdom jest-environment-jsdom jest-environment-jsdom-global @babel/preset-typescript --save-dev`
@@ -21,7 +21,18 @@
   }
 ```
 
-3. В скриптах package.json добавляем команду с названием тест
+3. Обязательно пишем простой конфиг Babel, чтобы Jest знал как собрать
+
+```javascript
+module.exports = {
+  presets: [
+    ["@babel/preset-env", { targets: { node: "current" } }],
+    "@babel/preset-typescript",
+  ],
+};
+```
+
+4. В скриптах package.json добавляем команду с названием тест
 
 ```json
 "scripts": {
