@@ -51,6 +51,7 @@ VS Code
 
 Git
 
+- [GitHub требует пароль, хотя настроен SSH](git/ssh-auth.md)
 - [Восстановить удаленнуюю ветку](git/undelete.md)
 - [Git SSH под Windows](git/ssh.md)
 - [Ветки и удаление](git/commands.md)
