@@ -4,6 +4,10 @@
 
 - [Docker](./docker/README.MD)
 
+Быстрая разработка
+
+- [Как фиксить баги](./rad/bugfix/README.MD)
+
 Тесты на фронте
 
 - [О тестах](./tests/README.md)
