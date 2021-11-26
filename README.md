@@ -54,6 +54,7 @@ Git
 - [Восстановить удаленнуюю ветку](git/undelete.md)
 - [Git SSH под Windows](git/ssh.md)
 - [Ветки и удаление](git/commands.md)
+- [Удалить сразу кучу веток](git/commands.md)
 - [Смержить с одним коммитом](git/merge.md)
 - [Имя пользователя](git/username.md)
 - [Keeping a fork up to date](git/fork.md)
