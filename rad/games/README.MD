@@ -1,6 +1,8 @@
 # Как быстро делать игры
 
 Как можно больше четко прописанных планов.
+Как можно больше кубиков, которые можно переиспользовать.
+Как можно больше думатьь только по уникальной сути игры.
 
 ## Структура проекта
 
@@ -68,6 +70,8 @@ onStateChange() - метод, благодаря которому родител
 const props = {
   health: 100,
   speed: 10,
+  x: 0,
+  y: 0,
 };
 this.hero = new Hero(props);
 this.hero.onStateChange((newState, prevState) => {
@@ -75,6 +79,14 @@ this.hero.onStateChange((newState, prevState) => {
   // передать в общую логику
   if (newState.speed != prevState.speed) {
     store.dispatch({ type: HERO_HEALTH_CHANGE, health: hero.health });
+  }
+
+  if (newState.x != prevState.x) {
+    // проверить столкновение по X
+  }
+
+  if (newState.y != prevState.y) {
+    // проверить столкновение по Y
   }
 });
 ```
