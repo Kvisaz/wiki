@@ -108,3 +108,18 @@ this.state = {
 
 this.subscribers.forEach((fn) => fn(prevState, this.state));
 ```
+
+#### Отслеживание изменений переменных стейта
+
+Чтобы не дергать всех из-за каждого изменения стейта, можно отслеживать изменения конкретных переменных
+
+```typescript
+// функция позволяет проверять изменения отдельных key в state
+function isStateKeyChanged(
+  key: keyof IState,
+  state: IState,
+  prevState: IState
+): boolean {
+  return state[key] !== prevState[key];
+}
+```
