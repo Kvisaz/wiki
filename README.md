@@ -1,4 +1,8 @@
-# wiki
+# [wiki](https://kvisaz.github.io/wiki/)
+
+Этот сайт - https://kvisaz.github.io/wiki/
+
+Репозиторий - https://github.com/Kvisaz/wiki
 
 Всякие статейки для разработки
 
