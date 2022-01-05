@@ -1,5 +1,21 @@
 # Docker
 
+## Настройка и запуск LAMP
+
+1. Пишем в директории Dockerfile
+
+```docker
+FROM mattrayner/lamp:latest-1804
+```
+
+2. Билдим в директории из консоли MacOS
+
+```zsh
+docker build .
+```
+
+## Инструкции для репозитория бэкенда Яндекс, не годится в широком смысле
+
 Скачал настроенный репозиторий? Настрой контейнер
 
 ```sh
@@ -7,11 +23,13 @@ make run
 ```
 
 Настроил контейнер? Запускай его
+
 ```sh
 make start
 ```
 
 Остановить сервер
+
 ```
 make stop
 ```
@@ -22,14 +40,16 @@ make stop
 
 Установи [docker-toolbox](https://github.com/docker/toolbox/releases)
 
-Запусти терминал Docker Quickstart Terminal 
+Запусти терминал Docker Quickstart Terminal
+
 ```
 "C:\Program Files\Git\bin\bash.exe" --login -i "C:\Program Files\Docker Toolbox\start.sh"
 ```
 
 Зайди в папку с репозиторием
 
-Запусти 
+Запусти
+
 ```sh
 docker-compose up
 ```
@@ -38,4 +58,3 @@ docker-compose up
 localhost не будет
 
 апгрейдься на Win10
-

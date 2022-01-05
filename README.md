@@ -17,6 +17,7 @@
 
 - [О тестах](./tests/README.md)
 - [Чек-лист по добавлению тестов в приложение Typescript](./tests/check-list-add-unit-test-ts.md)
+- [Localhost на мобилке](./tests/localhost.md)
 
 UI трюки и алгоритмы
 
