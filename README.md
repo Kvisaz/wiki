@@ -32,6 +32,7 @@ UI трюки и алгоритмы
 
 Фронтенд
 
+- [CSS хаки](./front/css/hacks.md)
 - [Верстка](front/common/verstka.md)
 - [Scroll](front/scroll/README.MD)
 - [JavaScript Codewars Kata 8](javascript/kata/kata8.md)

@@ -14,10 +14,10 @@ FROM mattrayner/lamp:latest-1804
 docker build . -t lamp
 ```
 
-3. Запускаем образ
+3. Запускаем образ, чтобы порт 80 подключился к 80 контейнера
 
 ```zsh
-docker run lamp
+docker run -p "80:80" lamp
 
 ```
 
