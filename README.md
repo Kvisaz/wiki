@@ -30,6 +30,10 @@ UI трюки и алгоритмы
 - [Dart](dart/README.md)
 - [iOS](ios/README.md)
 
+Гибридная разработка - фронт в мобилке
+
+- [Запуск фронта в WebView](mobile-frontend/README.md)
+
 Фронтенд
 
 - [CSS хаки](./front/css/hacks.md)
