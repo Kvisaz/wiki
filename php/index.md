@@ -47,7 +47,7 @@ https://github.com/ForkKvisaz/macOS-Local-Development-Setup
 
 Остановить
 
-`brew services stop -all`
+`brew services stop --all`
 
 PhpMyAdmin и Php прописываются как опции серверов и запуска не требуют
 
