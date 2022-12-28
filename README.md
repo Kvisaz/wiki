@@ -7,6 +7,7 @@
 Всякие статейки для разработки
 
 - [Docker](./docker/README.MD)
+- [Mac/Linux commands](./linux/README.MD)
 
 Быстрая разработка
 
