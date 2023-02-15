@@ -37,6 +37,7 @@ UI трюки и алгоритмы
 
 Фронтенд
 
+- [CSS селекторы в Chrome](./front/css/debug.md)
 - [CSS хаки](./front/css/hacks.md)
 - [Верстка](front/common/verstka.md)
 - [Scroll](front/scroll/README.MD)
