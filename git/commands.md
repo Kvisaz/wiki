@@ -17,6 +17,14 @@
 Посмотреть и вывести в текстовый файл последние 30 вмерженных коммитов
 `git log --merges  --pretty=format:'%h %s (%an)' --max-count=20 > merges.txt`
 
+## Merge с переписыванием
+
+Годно если конфликтуют только package-lock.json
+
+The -Xours option tells Git to ignore any conflicts and simply use the content of the branch being merged in case of any conflicts. 
+
+`git merge <branch_to_merge_from> -Xours -m 'dominate'`
+
 ## Merge без промежуточных коммитов
 
 В ветке `dev-branch` дофига промежуточных коммитов. Нужно, чтобы при merge они записались как один.
