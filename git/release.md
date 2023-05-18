@@ -34,18 +34,20 @@ cb5d1f2c4 Merged in feature/NSA-2115 (pull request #1799) ready
 2b3833a65 Merged in feature/NSA-1809 (pull request #1802) ready
 35c92f91e Merged in feature/NSA-1809 (pull request #1800) ready
 
-и составляем такой список
+и составляем из номеров список
 
 git cherry-pick -m 1 cb5d1f2c4 
 git cherry-pick -m 1 8db4f5804
 git cherry-pick -m 1 2b3833a65
 git cherry-pick -m 1 35c92f91e
 
-7. По очереди заряжаем эти команды в терминал в ветке release снизу
+7. По очереди в порядке СНИЗУ ВВЕРХ заряжаем эти команды в терминал в ветке release - это создаст такую же последовательность мержей с такими же названиями в release
 
 8. пошла сборка - https://cicd.novakidschool.com/job/frontend/job/kidoffice/job/release/
 как будет все зеленое,
 
 9.  перевести все задачи в релизе на released on canary
+
+11. в release ветке запустить `npm run release`, там ответить на вопросы, пропушить результат и теги в repo
 
 10. дать объяву в. it-release, скопировав инфу из релиза в Джире
