@@ -46,11 +46,11 @@ git cherry-pick -m 1 35c92f91e
 7.1 возможно отдельно следует сделать ветку rc.vx.x.x
 которую провести через мерж на битбакете в release
 
-8. пошла сборка - https://cicd.novakidschool.com/job/frontend/job/kidoffice/job/release/
+8. после мержа изменений  запустить `npm run release`, там ответить на вопросы, пропушить результат и теги в repo
+
+9. пошла сборка - https://cicd.novakidschool.com/job/frontend/job/kidoffice/job/release/
 как будет все зеленое,
 
-9.  перевести все задачи в релизе на released on canary
-
-11. в release ветке запустить `npm run release`, там ответить на вопросы, пропушить результат и теги в repo
+10.  перевести все задачи в релизе на released on canary
 
 10. дать объяву в. it-release, скопировав инфу из релиза в Джире
