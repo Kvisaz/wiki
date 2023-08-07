@@ -11,7 +11,7 @@ https://novakidschool.atlassian.net/projects/NSA?selectedItem=com.atlassian.jira
 4. составляю список мержей правильных задач после мержа af3261353 (последняя задача из прошлого релиза)
 
 5. Прочитать список мержей в dev после этого коммита
-` git log --merges --pretty --oneline af3261353..dev`
+` git log --merges --pretty --oneline 1a5147e0..dev`
 
 Получится список вида 
 
@@ -42,6 +42,9 @@ git cherry-pick -m 1 2b3833a65
 git cherry-pick -m 1 35c92f91e
 
 7. По очереди в порядке СНИЗУ ВВЕРХ заряжаем эти команды в терминал в ветке release - это создаст такую же последовательность мержей с такими же названиями в release
+
+7.1 возможно отдельно следует сделать ветку rc.vx.x.x
+которую провести через мерж на битбакете в release
 
 8. пошла сборка - https://cicd.novakidschool.com/job/frontend/job/kidoffice/job/release/
 как будет все зеленое,
