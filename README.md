@@ -4,6 +4,9 @@
 
 Репозиторий - https://github.com/Kvisaz/wiki
 
+Алгоритмы
+- [Псевдорандом](./algo/random/README.md)
+
 Всякие статейки для разработки
 
 - [Docker](./docker/README.MD)
