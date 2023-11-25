@@ -7,6 +7,9 @@
 Алгоритмы
 - [Псевдорандом](./algo/random/README.md)
 
+Нейронки
+- [Индекс](./neuralnet/README.md)
+
 Всякие статейки для разработки
 
 - [Docker](./docker/README.MD)
