@@ -4,6 +4,8 @@
 
 Ставятся через [OobaBooga Text Generation WebUI](https://github.com/oobabooga/text-generation-webui)
 
+[Параметры](./params/README.MD) 
+
 
 ## [Dolphin-2.1 Mistral 7b](https://huggingface.co/ehartford/dolphin-2.1-mistral-7b)
 
