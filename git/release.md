@@ -1,8 +1,7 @@
 # Release 
 
 
-1. иду в Releases в Jira -  создаю релиз с новым номером - KidsArea 0.0.96
-https://novakidschool.atlassian.net/projects/NSA?selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page
+1. иду в Releases в Jira -  создаю релиз с новым номером - Project 0.0.96
 
 2. прохожу по задачам в Ready, ставлю номер релиза в Версии исправления - после этого они отражаются в релизе в Джире
 
@@ -11,46 +10,62 @@ https://novakidschool.atlassian.net/projects/NSA?selectedItem=com.atlassian.jira
 4. составляю список мержей правильных задач после мержа af3261353 (последняя задача из прошлого релиза)
 
 5. Прочитать список мержей в dev после этого коммита
-` git log --merges --pretty --oneline 1a5147e0..dev`
+`git log --merges --pretty --oneline 460f8774..dev`
+
+460f8774bfe6d891f23ff1c096e7d25176e1f424
 
 Получится список вида 
 
 ```zsh
-5c1796d55 (origin/dev, dev) Merged in feature/NSA-2120 (pull request #1803)
-cb5d1f2c4 Merged in feature/NSA-2115 (pull request #1799)
-e5b57d986 Merged in feature/NSA-2068 (pull request #1805)
-8db4f5804 Merged in feature/NSA-1809 (pull request #1806)
-2b3833a65 Merged in feature/NSA-1809 (pull request #1802)
-d813fbcac Merged in feature/NSA-2068 (pull request #1801)
-35c92f91e Merged in feature/NSA-1809 (pull request #1800)
-8a72220ac Merged in feature/NSA-2068 (pull request #1795)
+23d47be29 (HEAD -> dev, origin/dev) Merged in feature/NSA-2728 (pull request #2030)
+5afeff281 Merged in bugfix/NSA-2714 (pull request #2028)
+ae3028c5f Merged in bugfix/NSA-2734 (pull request #2029)
+9116e848e Merged in bugfix/NSA-2741 (pull request #2026)
+5049bcbfe Merged in bugfix/NSA-2729 (pull request #2025)
+de44dfab8 Merged in feature/NSA-804 (pull request #2024)
+0f13235fc Merged in bugfix/NSA-2734 (pull request #2023)
+b4b3e32f4 Merged in bugfix/NSA-2726 (pull request #2022)
+3e5e6fd28 Merged in feature/NFC-40 (pull request #2021)
+
 ```
 
 
 6. Из них выбираем хэши мержей для задач со статусом ready
 
-cb5d1f2c4 Merged in feature/NSA-2115 (pull request #1799) ready
-8db4f5804 Merged in feature/NSA-1809 (pull request #1806) ready
-2b3833a65 Merged in feature/NSA-1809 (pull request #1802) ready
-35c92f91e Merged in feature/NSA-1809 (pull request #1800) ready
+23d47be29 (HEAD -> dev, origin/dev) Merged in feature/NSA-2728 (pull request #2030)
+5afeff281 Merged in bugfix/NSA-2714 (pull request #2028)    ready
+ae3028c5f Merged in bugfix/NSA-2734 (pull request #2029)    ready
+9116e848e Merged in bugfix/NSA-2741 (pull request #2026)    ready
+5049bcbfe Merged in bugfix/NSA-2729 (pull request #2025)    ready
+de44dfab8 Merged in feature/NSA-804 (pull request #2024)    can be released
+0f13235fc Merged in bugfix/NSA-2734 (pull request #2023)    ready
+b4b3e32f4 Merged in bugfix/NSA-2726 (pull request #2022)    ready
 
-и составляем из номеров список
+и составляем из номеров список СНИЗУ ВВЕРХ, чтобы порядок команд соответствовал их порядку применения
 
-git cherry-pick -m 1 cb5d1f2c4 
-git cherry-pick -m 1 8db4f5804
-git cherry-pick -m 1 2b3833a65
-git cherry-pick -m 1 35c92f91e
+git cherry-pick -m 1 3e5e6fd28
+git cherry-pick -m 1 b4b3e32f4
+git cherry-pick -m 1 0f13235fc
+git cherry-pick -m 1 de44dfab8
+git cherry-pick -m 1 5049bcbfe
+git cherry-pick -m 1 9116e848e
+git cherry-pick -m 1 ae3028c5f
+git cherry-pick -m 1 5afeff281
+git cherry-pick -m 1 23d47be29
 
-7. По очереди в порядке СНИЗУ ВВЕРХ заряжаем эти команды в терминал в ветке release - это создаст такую же последовательность мержей с такими же названиями в release
+7. делаем от ветки release ветку chore/rc.vx.x.x
 
-7.1 возможно отдельно следует сделать ветку rc.vx.x.x
-которую провести через мерж на битбакете в release
+8. По очереди заряжаем эти команды в терминал в ветку chore/rc.vx.x.x - это создаст такую же последовательность мержей с такими же названиями в release
 
-8. после мержа изменений  запустить `npm run release`, там ответить на вопросы, пропушить результат и теги в repo
+9. после мержа изменений  запустить `npm run release`, там ответить на вопросы, пропушить результат и теги в repo
 
-9. пошла сборка - https://cicd.novakidschool.com/job/frontend/job/kidoffice/job/release/
+10. сделать пулл-реквест в release, проверить конфликты и наличие всех задач 
+
+11. если все ок - мержить в release
+
+12. пошла сборка - https://cicd.novakidschool.com/job/frontend/job/kidoffice/job/release/
 как будет все зеленое,
 
-10.  перевести все задачи в релизе на released on canary
+13.  перевести все задачи в релизе на released on canary
 
-10. дать объяву в. it-release, скопировав инфу из релиза в Джире
+14. дать объяву в. it-release, скопировав инфу из релиза в Джире
