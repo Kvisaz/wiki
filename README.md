@@ -81,3 +81,6 @@ Git
 
 SSH
 - [SSH Bitbucket MacOS](ssh/README.md)
+
+WriteCraft
+- [Искусство написания текстов](writecraft/README.MD)
