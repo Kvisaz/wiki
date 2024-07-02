@@ -10,7 +10,7 @@
     
     Для этого может пригодиться команда  N последних мержей в dev
 
-    `git log --merges --pretty --oneline -n 30 >> merges.txt`
+    `git log --merges --pretty --oneline -n 30 >> merges.dev.txt`
 
 4. составляю список мержей правильных задач после мержа 5afeff281 (последняя задача из прошлого релиза)
 
