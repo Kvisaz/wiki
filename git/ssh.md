@@ -12,7 +12,7 @@
 Мы подготовили свежий проект для пушей, осталось настроить SSH ключ
 
 4 открываем Git Bash (юникс-подобная обертка для командной строки)
-5."ssh-keygen -t rsa -b 4096 -C вашаПочтаУказаннаяНаГитхаб"
+5."ssh-keygen -t rsa -b 4096 -C sergey.zoomaster@gmail.com"
 
 Далее появится "Enter file in which to save the key (/c/Users/Вы/.ssh/id_rsa):"
 Если не будет введено имя файло (путь/файл), то будет создан ключ в скобках
@@ -55,7 +55,6 @@ id_rsa - кстатИ! - это название файла, у меня оно 
 
 [https://github.com/settings/keys](https://github.com/settings/keys)
 
-
 Переходим в "SSH keys and GPG keys".
 В тайтле пишем либо название файла нашего ключа, либо что хочется.
 В Key отписываем содержимое ключа из буфера обмена.
@@ -85,7 +84,14 @@ Writing objects: 100% (10/10), 2.23 KiB | 2.23 MiB/s, done.
 Total 10 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), done.
 
+## WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED
 
+Обычно это происходит, если вы поменяли оборудование на сервере, к которому подключаетесь, или если на удаленном сервере изменились настройки.
 
+Если вы получили это сообщение об ошибке, вы можете исправить ее, удалив хост из файла ssh known_hosts и добавив его обратно:
+
+ssh-keygen -R github.com
+ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
 [<------------ Индекс ](../README.md)
