@@ -4,9 +4,16 @@
 
 Репозиторий - https://github.com/Kvisaz/wiki
 
+Алгоритмы
+- [Псевдорандом](./algo/random/README.md)
+
+Нейронки
+- [Индекс](./neuralnet/README.md)
+
 Всякие статейки для разработки
 
 - [Docker](./docker/README.MD)
+- [Mac/Linux commands](./linux/README.MD)
 
 Быстрая разработка
 
@@ -30,8 +37,13 @@ UI трюки и алгоритмы
 - [Dart](dart/README.md)
 - [iOS](ios/README.md)
 
+Гибридная разработка - фронт в мобилке
+
+- [Запуск фронта в WebView](mobile-frontend/README.md)
+
 Фронтенд
 
+- [CSS селекторы в Chrome](./front/css/debug.md)
 - [CSS хаки](./front/css/hacks.md)
 - [Верстка](front/common/verstka.md)
 - [Scroll](front/scroll/README.MD)
@@ -66,3 +78,11 @@ Git
 - [Смержить с одним коммитом](git/merge.md)
 - [Имя пользователя](git/username.md)
 - [Keeping a fork up to date](git/fork.md)
+- [Delete all package-lock.json](git/package-lock.md)
+
+
+SSH
+- [SSH Bitbucket MacOS](ssh/README.md)
+
+WriteCraft
+- [Искусство написания текстов](writecraft/README.MD)
