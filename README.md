@@ -23,6 +23,7 @@
 Тесты на фронте
 
 - [О тестах](./tests/README.md)
+- [NPM Link](./front/npm_tricks.md) Тестирование библиотеки без публикации в NPM
 - [Чек-лист по добавлению тестов в приложение Typescript](./tests/check-list-add-unit-test-ts.md)
 - [Localhost на мобилке](./tests/localhost.md)
 
