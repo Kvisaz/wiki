@@ -71,8 +71,9 @@ VS Code
 
 Git
 
+- [Конфликт изменений в локальной и удаленной ветке](git/pages/remote_branch_conflict.md)
 - [GitHub требует пароль, хотя настроен SSH](git/ssh-auth.md)
-- [Восстановить удаленнуюю ветку](git/undelete.md)
+- [Восстановить удаленную ветку](git/undelete.md)
 - [Git SSH под Windows](git/ssh.md)
 - [Ветки и удаление](git/commands.md)
 - [Удалить сразу кучу веток](git/commands.md)
