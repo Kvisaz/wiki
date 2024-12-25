@@ -36,3 +36,15 @@
 
 Набери в консоли Safari для iPad/iPhone
 `window.location.href='http://localhost.local:3000'`
+
+
+## Установить на iPad/iPhone другую версию
+
+Скачасть ipsw файл, к примеру тут
+https://ipsw.me/install/iPad13,2/21G101
+
+Plug your iPad Air 4 (Cellular) in to your Mac.
+Navigate to your iPad Air 4 (Cellular) in Finder.
+Hold the Option or Alt key on your keyboard, and press "Restore".
+Select the iPad_Fall_2020_17.6.1_21G101_Restore.ipsw file that you downloaded.
+Wait for the restore to complete, and the iPad Air 4 (Cellular) to reboot.
