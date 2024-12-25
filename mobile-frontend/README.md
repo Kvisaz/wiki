@@ -32,3 +32,7 @@
 Запуск локалхоста на телефоне через IP работает и на iOS
 
 Но можно еще соединить iPhone и Mac, в Mac в настройках сети назвать компьютер 'localhost.local' - и набирать в браузере на телефоне и `localhost.local:3001`
+
+
+Набери в консоли Safari для iPad/iPhone
+`window.location.href='http://localhost.local:3000'`
