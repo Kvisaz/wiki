@@ -71,6 +71,7 @@ VS Code
 
 Git
 
+- [Сжать коммиты в один](./git/commits.md)
 - [Конфликт изменений в локальной и удаленной ветке](git/pages/remote_branch_conflict.md)
 - [GitHub требует пароль, хотя настроен SSH](git/ssh-auth.md)
 - [Восстановить удаленную ветку](git/undelete.md)
